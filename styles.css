@@ -1,20 +1,5 @@
 body {
-  padding-top: 40px;
-  background-color: #EC1F27;
   font-family: 'Helvetica', 'Arial', sans-serif;
-}
-
-#banner {
-  padding: 20px;
-}
-
-#share {
-  padding-top: 150px;
-  padding-left: 20px;
-}
-
-h1,h2 {
-  color: white;
 }
 
 .icon {
@@ -29,11 +14,18 @@ hr {
   max-width: 80px;
 }
 
-.footer {
+header {
+  background-color: red;
+  margin-bottom: 20px;
+}
+
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
+  height: 50px;
   width: 100%;
   color: white;
   text-align: center;
+  background-color: red;
 }
