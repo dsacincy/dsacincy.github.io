@@ -18,7 +18,7 @@ h1,h2 {
 }
 
 .icon {
-  max-height: 60px;
+  max-height: 40px;
   padding-right: 10px;
 }
 
@@ -27,4 +27,13 @@ hr {
   color: white; /* old IE */
   background-color: white; /* Modern Browsers */
   max-width: 80px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
