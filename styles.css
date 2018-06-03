@@ -29,3 +29,12 @@ footer {
   text-align: center;
   background-color: red;
 }
+
+#index {
+  background-color: red;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
