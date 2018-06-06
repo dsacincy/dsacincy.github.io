@@ -1,7 +1,21 @@
 body {
-  padding-top: 40px;
-  background-color: #EC1F27;
   font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+header {
+  background-color: #EC1F27;
+  margin-bottom: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #EC1F27;
 }
 
 #banner {
@@ -11,10 +25,6 @@ body {
 #share {
   padding-top: 150px;
   padding-left: 20px;
-}
-
-h1,h2 {
-  color: white;
 }
 
 .icon {
@@ -27,4 +37,45 @@ hr {
   color: white; /* old IE */
   background-color: white; /* Modern Browsers */
   max-width: 80px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home {
+  background-color: #EC1F27;  
+}
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1rem;
+  padding: .85em 1em;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  font-size: .9rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #ec1f27;
+  color: #fff;
+  border-radius: 2em;
+  transition: all 150ms;
+  text-transform: uppercase;
+}
+
+.button:focus, .button:hover {
+  background-color: #f04e54;
+  color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.button-group .button {
+  margin-right: 1em;
 }
