@@ -4,7 +4,10 @@ body {
 
 header {
   background-color: #EC1F27;
-  margin-bottom: 20px;
+}
+
+.tab-pane {
+  padding-top: 20px;
 }
 
 footer {
@@ -45,7 +48,7 @@ hr {
   margin-right: auto;
 }
 
-#home {
+body.home {
   background-color: #EC1F27;  
 }
 
