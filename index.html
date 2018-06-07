@@ -18,13 +18,16 @@
 
 <body>
   <div id="fb-root"></div>
-  <script>(function (d, s, id) {
+  <script>
+    //include Facebook API
+    (function (d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
       js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
       fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -48,6 +51,7 @@
     </nav>
   </header>
   <main>
+    <!--Home tab-->
     <div class="tab-content" id="myTabContent">
       <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
         <div class="container-fluid">
@@ -55,14 +59,16 @@
             <div class="center-block">
               <img class="img-fluid" src="images/dsa-banner.png" alt="Cincinnati DSA logo">
               <h1 style="color:white">DSA</h1>
-              <hr align="left">
+              <hr class="home" align="left">
               <h2 style="color:white">Democratic Socialists
                 <br> of Metro Cincinnati and Northern Kentucky</h2>
             </div>
           </div>
         </div>
       </div>
+      <!--end Home tab-->
 
+      <!--About tab-->
       <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
         <div class="container">
           <div class="row">
@@ -83,7 +89,9 @@
           </div>
         </div>
       </div>
+      <!--end About tab-->
 
+      <!--Events tab-->
       <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
         <div class="container-fluid">
           <div class="row">
@@ -98,7 +106,9 @@
           </div>
         </div>
       </div>
+      <!--end Events tab-->
 
+      <!--Contact tab-->
       <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
         <div class="container">
           <h1>Contact</h1>
@@ -120,7 +130,9 @@
           <!--TODO: set up a google form-->
         </div>
       </div>
+      <!--end Contact tab-->
 
+      <!--Join tab-->
       <div class="tab-pane fade" id="join" role="tabpanel" aria-labelledby="join-tab">
         <div class="container">
           <div class="row">
@@ -155,6 +167,8 @@
           </div>
         </div>
       </div>
+      <!--end Join tab-->
+
     </div>
   </main>
 </body>

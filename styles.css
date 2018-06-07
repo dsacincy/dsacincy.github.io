@@ -8,6 +8,7 @@ header {
 
 .tab-pane {
   padding-top: 20px;
+  min-height: calc(100vh - 58px);
 }
 
 footer {
@@ -21,13 +22,8 @@ footer {
   background-color: #EC1F27;
 }
 
-#banner {
-  padding: 20px;
-}
-
-#share {
-  padding-top: 150px;
-  padding-left: 20px;
+#home {
+  background-color: #EC1F27;
 }
 
 .icon {
@@ -35,7 +31,7 @@ footer {
   padding-right: 10px;
 }
 
-hr {
+hr.home {
   height: 5px;
   color: white; /* old IE */
   background-color: white; /* Modern Browsers */
@@ -77,12 +73,4 @@ hr {
 
 .button-group .button {
   margin-right: 1em;
-}
-
-.tab-pane {
-  min-height: calc(100vh - 58px);
-}
-
-#home {
-  background-color: #EC1F27;
 }
