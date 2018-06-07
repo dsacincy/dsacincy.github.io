@@ -48,10 +48,6 @@ hr {
   margin-right: auto;
 }
 
-body.home {
-  background-color: #EC1F27;  
-}
-
 .button {
   display: inline-block;
   vertical-align: middle;
@@ -81,4 +77,12 @@ body.home {
 
 .button-group .button {
   margin-right: 1em;
+}
+
+.tab-pane {
+  min-height: calc(100vh - 58px);
+}
+
+#home {
+  background-color: #EC1F27;
 }
