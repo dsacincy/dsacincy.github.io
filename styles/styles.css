@@ -4,35 +4,27 @@
 
 */
 
-
 @font-face {
     font-family: DSA-Regular;
     src: url(ManifoldDSA-Regular.ttf);
 }
-
-
-
 
 html {
     /* To make use of full height of page*/
     height: 100%;
     margin: 0;
     padding: 0;
-
-
 }
+
 body {
     height: 100%;
     margin: 0;
     padding: 0;
     background: #EC1F27;
-
 }
 
-.ng-scope{
-
+.ng-scope {
     height: 100%;
-
 }
 
 p {
@@ -55,102 +47,69 @@ li {
     font-family: DSA-Regular;
 }
 
-nav li{
-
+nav li {
     color: #FFFFFF;
 }
 
-nav h2{
+nav h2 {
     color: #FFFFFF;
 }
 
-a{
+a {
     text-decoration: none;
     font-family: DSA-Regular;
 }
 
-.makeWhite{
-
+.makeWhite {
     background-color: #FFFFFF;
 }
 
-.makeTextWhite{
-
+.makeTextWhite {
     color: #FFFFFF;
 }
 
-
-
-.viewContent{
-
-
-
+.viewContent {
     text-align: center;
-
-
-
 }
 
-header{
+header {
     margin-bottom: 10%;
 }
 
-footer{
-
+footer {
     text-align: center;
-
     width: 100%;
     background-color: #231F20;
-
 }
 
-footer li{
+footer li {
     font-family: DSA-Regular;
     color: #FFFFFF;
 }
 
-footer p{
+footer p {
     font-family: DSA-Regular;
     color: #FFFFFF;
 }
 
-
-
-
-.ng-scope img{
-
+.ng-scope img {
     max-height: 100%;
     max-width: 100%;
 }
 
-
-
-
-
-
-
 @media screen and (max-width: 900px) {
-
-
-   footer {
-       display: none;
-   }
-
+    footer {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
-
-    header{
+    header {
         margin-bottom: 50%;
     }
-
 }
 
 .wrapper iframe {
-
     height: 100%;
     width: 80%;
-
 }
-
-
