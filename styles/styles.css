@@ -113,3 +113,8 @@ footer p {
     height: 100%;
     width: 80%;
 }
+
+ul {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
