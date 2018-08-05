@@ -55,8 +55,6 @@ li {
     font-family: DSA-Regular;
 }
 
-nav {}
-
 nav li{
 
     color: #FFFFFF;
@@ -148,12 +146,6 @@ footer p{
 
 }
 
-
-.wrapper {
-
-
-
-}
 .wrapper iframe {
 
     height: 100%;
