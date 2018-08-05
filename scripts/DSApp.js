@@ -16,8 +16,8 @@ DSApp.config(function ($routeProvider) {
         .when("/about", {
             templateUrl: "views/content/about.html"
         })
-        .when("/events", {
-            templateUrl: "views/content/events.html"
+        .when("/calendar", {
+            templateUrl: "views/content/calendar.html"
         })
         .when("/contact", {
             templateUrl: "views/content/contact.html"
