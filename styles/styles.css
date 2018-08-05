@@ -1,0 +1,164 @@
+/*
+
+    load fonts
+
+*/
+
+
+@font-face {
+    font-family: DSA-Regular;
+    src: url(ManifoldDSA-Regular.ttf);
+}
+
+
+
+
+html {
+    /* To make use of full height of page*/
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #EC1F27;
+
+}
+
+.ng-scope{
+
+    height: 100%;
+
+}
+
+p {
+    color: #231F20;
+    font-family: DSA-Regular;
+}
+
+h1 {
+    color: #231F20;
+    font-family: DSA-Regular;
+}
+
+h2 {
+    color: #231F20;
+    font-family: DSA-Regular;
+}
+
+li {
+    color: #231F20;
+    font-family: DSA-Regular;
+}
+
+nav {}
+
+nav li{
+
+    color: #FFFFFF;
+}
+
+nav h2{
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    font-family: DSA-Regular;
+}
+
+.makeWhite{
+
+    background-color: #FFFFFF;
+}
+
+.makeTextWhite{
+
+    color: #FFFFFF;
+}
+
+
+
+.viewContent{
+
+
+
+    text-align: center;
+
+
+
+}
+
+header{
+    margin-bottom: 10%;
+}
+
+footer{
+
+    text-align: center;
+
+    width: 100%;
+    background-color: #231F20;
+
+}
+
+footer li{
+    font-family: DSA-Regular;
+    color: #FFFFFF;
+}
+
+footer p{
+    font-family: DSA-Regular;
+    color: #FFFFFF;
+}
+
+
+
+
+.ng-scope img{
+
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+
+   footer {
+       display: none;
+   }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    header{
+        margin-bottom: 50%;
+    }
+
+}
+
+
+.wrapper {
+
+
+
+}
+.wrapper iframe {
+
+    height: 100%;
+    width: 80%;
+
+}
+
+
