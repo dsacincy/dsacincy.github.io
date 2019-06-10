@@ -1,8 +1,4 @@
-var DSApp = angular.module('DSApp', [
-
-    "ngRoute"
-
-]);
+var DSApp = angular.module('DSApp', ["ezfb", "ngRoute"]);
 
 //routing setup
 DSApp.config(function ($routeProvider) {
