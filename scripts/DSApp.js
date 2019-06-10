@@ -1,7 +1,13 @@
 var DSApp = angular.module('DSApp', ["ezfb", "ngRoute"]);
 
 //routing setup
-DSApp.config(function ($routeProvider) {
+DSApp.config(function (ezfbProvider, $routeProvider) {
+
+    ezfbProvider.setInitParams({
+        appId: '386469651480295',
+        version: 'v2.6'
+    });
+
     $routeProvider
         .when("/", {
             templateUrl: "views/content/home.html"
