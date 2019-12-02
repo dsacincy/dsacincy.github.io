@@ -1,3 +1,7 @@
+# dsacincy.org is now hosted with DigitalOcean. This repo should be considered archival and a backup.
+
+-------------------------------
+
 # dsacincy.github.io - dsacincy.org
 
 The website for the Metro Cincinnati and Northern Kentucky chapter of the Democratic Socialists of America. The site is hosted on [GitHub Pages](https://pages.github.com/).
